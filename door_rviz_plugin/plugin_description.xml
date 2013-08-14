@@ -1,0 +1,16 @@
+<library path="${prefix}/lib/libdoor_rviz_plugin">
+  <class name="DoorRvizPanel"
+         type="door_plugin_space::DoorRvizPanel"
+         base_class_type="rviz::Panel">
+    <description>
+      A panel widget to interface with hardware initialization commands
+    </description>
+  </class>
+  <class name="DoorRvizPlugin"
+         type="rviz_plugin_space::DoorRvizPlugin"
+         base_class_type="QTabWidget">
+    <description>
+      The widget which is laid on top of the DoorRvizPanel
+    </description>
+  </class>
+</library>
